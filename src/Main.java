@@ -2,6 +2,15 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.print("Hello GitHub");
+        int i=1 ;
+        try{
+            i++;
+        }catch (Exception e){
+            i++;
+        }
+        finally {
+            i++;
+        }
+        System.out.println(i);
     }
 }
