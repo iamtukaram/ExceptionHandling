@@ -1,0 +1,12 @@
+Exception is an abnormal condition which occurs
+during execution of a program and disrupts the normal flow of a program.
+
+
+
+try block : This block contains statements which may throw exceptions during run time.
+
+catch Block : This block handles the exceptions thrown by the try block.
+
+finally Block : This block is always executed whether an exception is thrown or not and thrown exception is caught or not.
+ Hence, important code like releasing the resources are kept in this block.
+
