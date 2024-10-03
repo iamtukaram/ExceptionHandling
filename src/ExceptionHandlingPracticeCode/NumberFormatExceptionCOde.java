@@ -1,5 +1,5 @@
 package ExceptionHandlingPracticeCode;
-
+//NumberFormatException is thrown when we are trying to convert a string to numeric value
 class Code2{
     void handlingException(){
         System.out.println(1);
